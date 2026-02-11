@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { formatCurrency } from "../../lib/format";
 import type { products as productList } from "../../data/products";
 
@@ -12,7 +13,15 @@ export default function ProductCard({
 }) {
   return (
     <div className="tea-card flex flex-col rounded-3xl p-6">
-      <div className="mb-5 h-36 rounded-2xl bg-gradient-to-br from-[#f2e1c5] via-[#f7efe2] to-[#fdf8f0]" />
+      <div className="relative mb-5 h-48 overflow-hidden rounded-2xl bg-gradient-to-br from-[#f2e1c5] via-[#f7efe2] to-[#fdf8f0]">
+        <Image
+          src={product.image}
+          alt={product.name}
+          fill
+          className="object-cover transition-transform duration-500 hover:scale-110"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        />
+      </div>
       <div className="flex-1 space-y-3">
         <div className="flex items-start justify-between">
           <div>

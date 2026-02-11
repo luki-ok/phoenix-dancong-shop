@@ -7,6 +7,7 @@ export const products = [
     roast: "中轻焙",
     size: "100g",
     price: 168,
+    image: "https://images.unsplash.com/photo-1594631252845-29fc4586d52c?q=80&w=800&auto=format&fit=crop",
   },
   {
     id: "milanxiang",
@@ -16,6 +17,7 @@ export const products = [
     roast: "中焙",
     size: "100g",
     price: 148,
+    image: "https://images.unsplash.com/photo-1563911191271-d9a949de4b12?q=80&w=800&auto=format&fit=crop",
   },
   {
     id: "xingrenxiang",
@@ -25,6 +27,7 @@ export const products = [
     roast: "中足焙",
     size: "100g",
     price: 158,
+    image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=800&auto=format&fit=crop",
   },
   {
     id: "huangzhixiang",
@@ -34,6 +37,7 @@ export const products = [
     roast: "轻焙",
     size: "100g",
     price: 138,
+    image: "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?q=80&w=800&auto=format&fit=crop",
   },
   {
     id: "songzhong",
@@ -43,6 +47,7 @@ export const products = [
     roast: "中足焙",
     size: "100g",
     price: 198,
+    image: "https://images.unsplash.com/photo-1544787210-2213d84ad96b?q=80&w=800&auto=format&fit=crop",
   },
   {
     id: "baxian",
@@ -52,5 +57,6 @@ export const products = [
     roast: "中焙",
     size: "100g",
     price: 178,
+    image: "https://images.unsplash.com/photo-1627435601361-ec25f5b1d0e5?q=80&w=800&auto=format&fit=crop",
   },
 ];
